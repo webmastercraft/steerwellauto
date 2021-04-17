@@ -1,0 +1,205 @@
+
+.transaction {
+	box-shadow: none !important;
+}
+
+.transaction .profile_content_body {
+	padding: 0;
+	background-color: #f6f7f8;
+}
+
+.transaction .profile_content_body .profile_paragraph {
+	box-shadow: 0px 2px 4px -1px rgba(10,13,27,0.14);
+    -webkit-box-shadow: 0px 2px 4px -1px rgba(10,13,27,0.14);
+	margin-bottom: 30px;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.transaction .profile_paragraph .open {
+	display: block;
+}
+
+.transaction .profile_paragraph .close {
+	display: none;
+}
+
+.pro_para_body{
+	margin-top: 20px !important;
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #efebeb;
+}
+
+.pro_para_body img {
+	float: left;
+	border-radius: 5px;
+	margin-right: 20px;
+	width: 100%;
+}
+
+.pro_para_body .trans_detail {
+	text-align: left;
+	padding: 9px 5px 0;
+}
+
+.trans_detail h5 {
+	font-size: 16px;
+}
+
+.trans_detail div {
+	font-size: 14px;
+	margin-top: 15px;
+	display: flex;
+}
+
+.trans_detail div span {
+	color: #f69138;
+	background-color: #FFF7EB;
+	border: 1px solid;
+	padding: 5px 15px;
+	border-radius: 5px;
+	font-size: 14px;
+}
+.trans_detail .status_progress > span{
+	color: #1ec540;
+    background-color: #F5FEF3;
+}
+.trans_detail .status_completed > span{
+	color: #F23A39;
+    background-color: #FCF4F4;
+}
+
+.info_label h5 {
+	font-size: 14px;
+	margin-top: 12px;
+}
+
+.info_label div,
+.more_info div {
+	font-size: 14px;
+	color: #212a32;
+	margin-top: 15px;
+	display: flex;
+}
+
+.pro_para_body .more_info {
+	padding-left: 20px;
+	text-align: center;
+}
+
+.more_info .upload_check {
+	background-color: #2499f3;
+	border: none;
+	color: white;
+	padding: 5px 25px;
+	border-radius: 6px;
+	text-align: center;
+	line-height: 30px;
+}
+
+.more_info div button {
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 15px;
+	text-transform: unset;
+	color: #2499f3;
+}
+
+.more_info div button:hover {
+	background-color: unset;
+}
+
+.title_img {
+	padding-left: 0px;
+}
+
+.pro_para_popdown.row {
+	margin: 0;
+	background-color: #fafbfb;
+	padding: 15px 20px;
+	border-bottom: 1px solid #efebeb;
+}
+
+.pro_para_popdown.row .col-md-12 {
+	border: 1px solid #efebeb;
+	border-radius: 5px;
+}
+
+.pro_para_popdown.row .col-md-12 .row {
+	background-color: white;
+	padding: 20px 15px 10px;
+}
+.pro_para_popdown.row .col-md-12 .row:first-child{
+	border-bottom: 1px solid #efebeb;
+}
+
+.pop_down_title {
+	padding: 15px 20px;
+	font-size: 14px;
+	line-height: 36px;
+	font-family: "OpenSans-SemiBold";
+}
+
+.pop_down_cost,
+.pop_down_paydate {
+	display: grid;
+}
+
+.pop_down_cost{
+	padding-left: 50px;
+}
+
+.pop_down_cost span:first-child,
+.pop_down_paydate span:first-child {
+	margin-bottom: 0px;
+}
+
+.pop_down_cost span:last-child,
+.pop_down_paydate span:last-child {
+	font-family: "OpenSans-SemiBold";
+	font-size: 14px;
+}
+
+.pro_para_popdown .label{
+	color: #a2acb8;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.pop_down_result {
+	padding: 12px 26px;
+	text-align: center;
+	font-size: 14px;
+	color: #1ec540;
+	line-height: 36px;
+}
+
+.pop_down_result .MuiSvgIcon-root {
+	margin-right: 5px;
+}
+
+.pop_down_result button {
+	border-radius: 6px;
+	padding: 5px 10px;
+	line-height: 30px;
+	width: 90%;
+	background-color: unset;
+	border: 1px solid #2499f3;
+}
+
+.pop_down_result button:hover {
+	background-color: #2499f3;
+	color: white;
+}
+
+
+div.track_down {
+	border: 1px solid #2499f3;
+}
+button.track_down {
+	border: 1px solid #2499f3;
+}

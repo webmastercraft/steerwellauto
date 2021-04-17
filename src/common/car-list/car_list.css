@@ -1,0 +1,80 @@
+.HomeCarSlide .carousel .row > img{
+	display: none;
+}
+.HomeCarSlide .carousel .control-dots{
+	margin-top: 30px;
+	position: relative;
+	padding: 0;
+}
+.HomeCarSlide .carousel .control-dots li.dot{
+	width: 9px;
+	height: 9px;
+	margin: 0 4px;
+	box-shadow: none;
+	outline: none;
+	opacity: 1;
+}
+.HomeCarSlide .carousel .control-dots .dot{
+	background-color: #E9EEF2;
+}
+.HomeCarSlide .carousel .control-dots .dot.selected{
+	background: #2499f3;
+}
+.HomeCarSlide .carousel .slide{
+	background: transparent;
+}
+
+.HomeCarSlide .carousel .control-arrow{
+	height: 44px;
+	width: 76px;
+	position: absolute;
+	top: -100px;
+	padding: 5px 11px;
+    color: #BFCBDA;
+    font-size: 24px;
+    text-decoration: none;
+    background: white;
+    margin: 4px;
+    box-shadow: 0 4px 4px -3px rgba(10,13,27,0.14);
+    opacity: 1;
+    border-radius: 5px;
+    display: block;
+    transform: scalex(0.6);
+}
+.HomeCarSlide .carousel .control-arrow:hover{
+	color: #2499f3;
+	box-shadow: 0 3px 3px 0px #AAA;
+	background: white;
+}
+.HomeCarSlide .carousel .control-arrow.control-prev{
+	right: 52px;
+	left: inherit;
+}
+.HomeCarSlide .carousel .control-arrow.control-disabled{
+	color: #545E6A;
+	background: #eeeeee;
+	box-shadow: 0 1px 3px -1px #ccc;
+}
+.HomeCarSlide .carousel .control-arrow.control-prev:before{
+	border: none;
+	content: "\003C";
+}
+.HomeCarSlide .carousel .control-arrow.control-next:before{
+	border: none;
+	content: "\003E";
+}
+.HomeCarSlide .carousel.carousel-slider{
+	overflow: visible !important;
+}
+.HomeCarSlide .carousel .slide .car-list-item{
+	overflow: hidden;
+	padding-bottom:5px;
+}
+.HomeCarSlide .carousel .slide .car-list-item  .car-details-item-image{
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	height: 170px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}

@@ -1,0 +1,166 @@
+@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/open_sans/OpenSans.woff') format('woff')
+}
+@font-face {
+  font-family: 'OpenSans-Light';
+  font-style: normal;
+  font-weight: 100;
+  src: url('/fonts/open_sans/OpenSans-light.woff') format('woff')
+}
+@font-face {
+  font-family: 'OpenSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/open_sans/OpenSans-bold.woff') format('woff')
+}
+@font-face {
+  font-family: 'OpenSans-SemiBold';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/open_sans/OpenSans-semibold.woff') format('woff')
+}
+
+a:hover{
+    text-decoration: none;
+}
+*{
+    outline: none !important;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "OpenSans-SemiBold";
+    color: #212A32;
+}
+p{
+    font-size: 14px;
+    color: #545E6A;
+    line-height: 24px;
+    font-family: "OpenSans";
+}
+select, .MuiInputBase-root{
+  font-family: "OpenSans" !important;
+}
+.light_color{
+    color: #A2ACB8
+}
+.gray_color{
+    color: #545E6A;
+}
+.dark_color{
+    color: #212A32;
+}
+.steer_blue{
+   color: #2499f3
+}
+.steer_bold{
+    font-family: "OpenSans-SemiBold";
+}
+.MuiInputBase-root fieldset, input, select{
+    border:1px solid #BFCBDA;
+    color: #545E6A;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.MuiButtonBase-root{
+    font-family: "OpenSans";
+}
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+.row.home.modal-open {
+	margin: -55px 0 0 0 !important;
+	display: inline-block;
+	width: 100vw;
+}
+div.user{
+	padding-top: 10px;
+    padding-bottom: 5px;
+}
+body {
+	overflow-x: hidden;
+	font-family: "OpenSans";
+  background-color: #f6f7f8;
+}
+
+span.show_all_link a{
+    color: #2499f3;
+    text-decoration: none;
+    font-size: 16px;
+    position: absolute;
+    right: 15px;
+    line-height: 40px;
+    font-family: "OpenSans"
+}
+span.show_all_link .MuiSvgIcon-root{
+    font-size: 20px;
+    margin-top: -2px;
+    margin-left: 5px;
+}
+main i{
+    color: #A2ACB8;
+}
+input[type="text"].form-control, input[type="password"].form-control
+{
+    border-radius: 5px;
+    border: 1px solid #BFCBDA;
+    color: #545E6A;
+}
+span.tag{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #f6f7f9;
+    color: #212A32;
+    font-size: 12px;
+}
+
+/* refactor style */
+#app main > .container{
+  padding-bottom: 100px;
+}
+
+#app .shadow_box{
+  background: white;
+  box-shadow: 0px 2px 4px -1px rgba(10,13,27,0.14);
+  border-radius: 5px;
+}
+
+.Mui-focused.Mui-focused .MuiSelect-selectMenu:after{
+    display: none;
+}

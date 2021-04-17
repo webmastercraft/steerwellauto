@@ -1,0 +1,76 @@
+.row.customer_review h2.title{
+	width: 100%;
+	font-weight: normal;
+	margin: 40px 15px 30px;
+}
+.row.customer_review .navigator{
+	float: right;
+	margin-top: 10px;
+}
+.row.customer_review .navigator a{
+	padding: 10px 15px;
+	color: #CCC;
+	font-size: 18px;
+	text-decoration: none;
+	background: white;
+	margin: 4px;
+	box-shadow:  0 1px 3px -1px #ccc;
+}
+.row.customer_review .navigator a i{
+	font-size: 16px;
+}
+.row.customer_review .navigator a:hover{
+	box-shadow:  0 3px 3px -1px #AAA;
+}
+.row.customer_review .navigator a:hover i{
+	color: #2499f3;
+}
+
+.customer_review .review_item{
+	background: white;
+	box-shadow:  0 2px 4px -1px rgba(10,13,27,0.14);
+	padding: 40px 30px 20px;
+	height: 100%;
+	text-align: left;
+	border-radius: 5px;
+}
+.customer_review .review_item .user_wrap{
+	overflow: hidden;
+}
+.customer_review .review_item .user_photo{
+	float: left;
+	width: 50px;
+}
+.customer_review .review_item .user_photo img{
+	width: 100%;
+}
+.customer_review .review_item .user_rating{
+	float: left;
+	margin:10px 20px;
+}
+.customer_review .review_item .user_rating img{
+	margin-right: 5px;
+	width: 15%;
+}
+.customer_review .review_item .user_name{
+	margin: 20px 0;
+	color: #212a32;
+	font-size: 12px;
+	font-family: "OpenSans-SemiBold";
+}
+.customer_review .review_item .user_name span{
+	color: #A2ACB8;
+	font-family: "OpenSans-SemiBold";
+}
+.customer_review .review_item p.user_description{
+	font-size: 14px;
+	color: #212A32;
+}
+.customer_review .HomeCarSlide .control-dots{
+	display: none;
+}
+.customer_review .HomeCarSlide .carousel .control-arrow{
+	top: -85px;
+}
+
+

@@ -1,0 +1,108 @@
+.row.recent_added .title{
+	margin-bottom: 15px;
+}
+.row.recent_added .navigator{
+	float: right;
+	margin-top: 30px;
+}
+.row.recent_added .navigator a{
+	padding: 10px 15px;
+	color: #CCC;
+	font-size: 18px;
+	text-decoration: none;
+	background: white;
+	margin: 4px;
+	box-shadow:  0 1px 3px -1px #ccc;
+}
+.row.recent_added .navigator a i{
+	font-size: 16px;
+}
+.row.recent_added .navigator a:hover{
+	box-shadow:  0 3px 3px -1px #AAA;
+}
+.row.recent_added .navigator a:hover i{
+	color: #2499f3;
+}
+.row.recent_added .title p{
+	margin-top: 16px;
+}
+.car-list-item{
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+.car-list-item img{
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	width: 100%;
+}
+.car-list-item .car-info-wrapper{
+	box-shadow: 0 5px 7px -4px rgba(10,13,27,0.17);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background: white;
+	padding: 10px 20px 20px;
+}
+.car-list-item .car-info-wrapper .car-item-title{
+	color: #212A32;
+	font-family: "OpenSans-SemiBold";
+    text-align: left;
+    margin: 20px 0 ;
+    font-size: 16px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.car-list-item .car-info-wrapper .car-item-tags{
+	margin-bottom:20px;
+	text-align: left;
+	overflow: hidden;
+    height: 28px;
+}
+.car-list-item .car-info-wrapper .car-item-tags span{
+	color: #212A32;
+	background-color: #F6F7F9;
+	padding: 3px 8px;
+	margin-right: 5px;
+	border-radius: 5px;
+	font-size: 12px;
+	display: inline-block;
+}
+.car-list-item .car-info-wrapper .info_grid{
+	margin-top:5px;
+	line-height: 40px;
+	overflow: hidden;
+	border-bottom: 1px solid #F2F2F2;
+}
+.car-list-item .car-info-wrapper .info_grid:nth-last-child(2){
+	border: 0;
+}
+.car-list-item .car-info-wrapper .info_grid label{
+	color: #545E6A;
+	float: left;
+	font-size: 14px;
+	font-weight: 300;
+}
+.car-list-item .car-info-wrapper .info_grid span{
+	float: right;
+	font-size: 14px;
+	color: #212A32;
+	font-family: "OpenSans-SemiBold";
+}
+.car-list-item .car-info-wrapper .car-item-price{
+	margin-top: 20px;
+	overflow: hidden;
+}
+.car-list-item .car-info-wrapper .car-item-price label{
+	color: #212A32;
+	font-size: 16px;
+	line-height: 40px;
+	float: left;
+	font-family: "OpenSans-SemiBold";
+}
+.car-list-item .overlay_background{
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+}

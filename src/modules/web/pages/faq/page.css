@@ -1,0 +1,195 @@
+.faq_container {
+	display: block;
+	overflow: hidden;
+}
+.faq_container .col-sm-12.Backcar{
+	background-image: url("/imgs/Car_first.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 430px;
+}
+.faq_container .col-sm-12.Backcar .search{
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+.faq_container .Backcar p.help{
+	color:white;
+	font-size: 28px;
+	margin-top: 113px;
+	font-family: "OpenSans-SemiBold";
+	text-align: center;
+}
+.faq_container .Backcar p.Donec{
+	text-align: center;
+	color: white;
+	font-size: 14px;
+    margin: 20px 0 40px;
+}
+.faq_container .Backcar .search button.MuiButtonBase-root{
+	font-size: 16px;
+	padding: 0 80px;
+	text-transform: capitalize;
+}
+.faq_container p.Categories{
+	font-size: 22px;
+	color: #212A32;
+	margin-top: 47px;
+	font-family: "OpenSans-SemiBold"
+}
+.faq_container p.facilisis{
+	font-size: 14px;
+	line-height: 24px;
+	color: #545E6A;
+	font-weight: 100;
+	margin-bottom: 33px;
+}
+.faq_container .btn-sm{
+	color:white;
+	font-size: 12px;
+	background-color: rgba(255,255,255,0.15);
+	border-style: none;
+	margin-right: 5px;
+}
+.faq_container #searchbtn{
+	color: white;
+	height: 54px;
+	border-radius: 3px;
+	font-size: 18px;
+	background-color: #2499f3;
+	border-style: none;
+	margin-left: 15px;
+	padding: 0 40px;
+}
+.faq_container .search_input .input-group{
+	margin-bottom: 23px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 90%;
+	/*display: flex;*/
+}
+.faq_container .search_input .input-group-btn{
+	float: left;
+}
+.faq_container #searchpan{
+	width: 585px;
+	height: 54px;
+	border-radius: 3px;
+	font-size: 17px;
+	float: left;
+    max-width: 80%;
+}
+.faq_container .search_input{
+	/*display: flex;*/
+}
+.faq_container .somebtn{
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	padding-left: 10px;
+}
+.faq_container .somebtn button{
+	font-size: 12px;
+	padding: 4px 10px;
+}
+
+.faq_container .container-fluid.text-center{
+	background-color: white;
+}
+.faq_container .col-sm-12.text{
+	margin-top: 12px;
+	background-color: #f6f7f8;
+	text-align: left;
+}
+.faq_container .container .row.main{
+	background-color: #f6f7f8;
+	padding-bottom: 100px;
+}
+.faq_container .list-group-item{
+	border-style: none;
+	text-align: left;
+	padding: 14px 20px;
+	color: #212A32;
+	font-size: 14px;
+	font-weight: 100;
+}
+.faq_container div.item .list-group .list-group-item:hover{
+	color: #2499f3;
+	border-left: 1px solid #2499f3;
+	background: #f5f7fc;
+}
+.faq_container div.item .list-group .list-group-item:hover i,
+.faq_container div.item .list-group .list-group-item:hover .digit{
+	color: #2499f3;
+}
+.faq_container div.item .list-group .activeItem {
+	border-left: 1px solid #2499f3;
+    z-index: 2;
+    color: #2499f3;
+    background-color: #f5f7fc;
+    border-color: #007bff;
+}
+.faq_container div.item .list-group .activeItem .digit{
+	color: #545e6a;
+}
+.faq_container div.item .list-group .list-group-item.activeItem:hover,
+.faq_container div.item .list-group .list-group-item.activeItem:active,
+.faq_container div.item .list-group .list-group-item.activeItem:hover .digit,
+.faq_container div.item .list-group .list-group-item.activeItem:active .digit,
+{
+	color: #2499f3;
+}
+
+.faq_container div.item .list-group{
+	box-shadow: 0px 2px 4px -1px rgba(10,13,27,0.14);
+	margin-bottom: 20px;
+}
+.faq_container .list-group .list-group-item .MuiSvgIcon-root{
+	margin-right: 8px;
+}
+.faq_container .list-group-item .digit{
+	float: right;
+	color: #545e6a;
+	font-size: 14px;
+	font-weight: 100;
+}
+.faq_container .faq_accordion{
+	background-color: white;
+	box-shadow: 0px 2px 4px -1px rgba(10,13,27,0.14);
+	padding-left: 25px;
+}
+
+.faq_container .drops .expantion-content{
+	background-color: white;
+	padding-right: 30px;
+	padding-left: 30px;
+	border-radius: 5px;
+	color: #333;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+}
+.faq_container .drops .expantion-content > .MuiPaper-root{
+	padding-left: 0;
+	padding-right: 0;
+}
+.faq_container .drops .expantion-content .MuiExpansionPanelSummary-content p{
+	color: #212A32;
+	font-size: 16px;
+	font-family: "OpenSans-SemiBold";
+}
+.faq_container .drops .expantion-content .MuiTypography-body1{
+	font-family: "OpenSans";
+	font-size: 14px;
+	line-height: 24px;
+	color: #545E6A;
+}
+.faq_container .imgcar{
+	width: 100%;
+	margin-top: 35px;
+	text-align: center;
+}
+.faq_container .list-group-item {
+	outline: none !important;
+}

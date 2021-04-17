@@ -1,0 +1,35 @@
+.row.catergory_section h2.title{
+	width: 100%;
+    font-weight: normal;
+    margin: 40px 15px 40px;
+}
+.row.catergory_section > div{
+	text-align: center;
+}
+.row.catergory_section > div img{
+	border-radius: 5px;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.row.catergory_section > div span{
+	color:white;
+	font-family: "OpenSans";
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 26px;
+	position: absolute;
+	top: 16px;
+	left: 32px;
+	font-weight: normal;
+}
+@media (max-width: 768px) {
+	.homepage .row.catergory_section > div{
+		width: 60%;
+		margin:0 auto;
+	}
+}
+@media (max-width: 512px) {
+		.homepage .row.catergory_section > div{
+		width: 90%;
+	}
+}

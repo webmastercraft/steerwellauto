@@ -1,0 +1,135 @@
+.white_bg {
+	background: white;
+}
+.page_banner{
+	text-align: center;
+	background-image: url(/static/img/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 15vh 0;
+	min-height: 300px;
+}
+.page_banner h3{
+	color: white;
+}
+.page_banner p{
+	color: white;
+	width: 40%;
+	margin: 30px auto;
+}
+.page_container img{
+	width: 100%;
+	border-radius: 5px;
+}
+.page_container .container{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.page_container .container .title{
+	color: #212A32;
+	font-size: 24px;
+}
+.page_container .container ul{
+	list-style: none;
+	padding-left: 0;
+	margin-top: 30px;
+}
+.page_container .container ul li{
+	margin-top: 15px;
+}
+.page_container .container ul li svg
+{
+	float: left;
+	color: #2499f3;
+	margin-right: 15px;
+	font-size: 20px;
+	margin-top: 2px;
+}
+
+ul.opening_hours p{
+	margin-left: 40px;
+	line-height: 28px;
+	margin-bottom: 0;
+}
+.contact_block h5{
+	margin-top: 40px;
+	font-size: 18px;
+}
+.form_block{
+	border-radius: 5px;
+	padding: 30px;
+}
+.form_block .title, .form_block > p{
+	text-align: center;
+}
+.form_block label{
+	width: 100%;
+	color: #545E6A;
+	margin-top: 18px;
+	font-size: 14px;
+}
+.form_block input, .form_block select, .form_block textarea{
+	width: 100%;
+	border:1px solid #BFCBDA;
+	background: white;
+    color: #545E6A;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 12px 15px;
+}
+.form_block button{
+	width: 100%;
+	margin-top: 20px;
+	color: white;
+	background: #2499f3;
+	border-radius: 5px;
+	padding: 12px;
+	border: 1px solid #2499f3;
+	font-family: "OpenSans-Semibold";
+}
+.form_block .MuiInputBase-root{
+	width: 100%;
+}
+.form_block .MuiInputBase-root .MuiSelect-root{
+	padding: 14px 15px;
+	font-size: 14px;
+	color: #545E6A;
+}
+.form_block .MuiInputBase-root .MuiSvgIcon-root{
+	color: #2499f3;
+	font-size: 22px;
+}
+
+ul.office_block li{
+	display: block;
+	overflow: hidden;
+}
+ul.office_block li svg{
+	margin-right: 10px !important;
+	margin-top: 2px;
+}
+ul.office_block h4{
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+ul.office_block li p{
+	width: 70%;
+	display: block;
+	float: left;
+}
+.border_bottom{
+	border-bottom: 1px solid #F2F2F2;
+}
+.other_departments{
+	padding-bottom: 30px;
+}
+.other_departments h4{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+.other_departments p{
+	margin-bottom: 5px;
+	line-height: 28px;
+}

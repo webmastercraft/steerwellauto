@@ -1,0 +1,130 @@
+.profile_sidebar{
+	text-align: center;
+	box-shadow: 0px 2px 4px -1px rgba(10,13,27,0.14);
+	-webkit-box-shadow: 0px 2px 4px -1px rgba(10,13,27,0.14);
+	border-radius: 5px;
+	padding-top: 30px;
+	background-color: white;
+}
+.profile_sidebar h4 {
+	font-size: 18px;
+}
+.profile_sidebar .nav header{
+	padding: 0;
+}
+.profile_sidebar .profile_userpic .MuiSvgIcon-root {
+	color: #e1e8ee;
+	height: 90px;
+	width: 90px;
+}
+.profile_sidebar .profile_usertitle {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-size: 28px;
+	color: #212a32;
+}
+.profile_sidebar .profile_usermenu button {
+	font-size: 1rem !important;
+}
+.profile_sidebar .profile_usermenu button.log_out{
+	border-top: 1px solid #f2f2f2;
+}
+.profile_sidebar .profile_usermenu li a {
+	text-align: left;
+	font-size: 1em;
+	font-weight: 300;
+	color: #000;
+	padding: 15px !important;
+}
+.profile_sidebar .profile_usermenu ul li.active a {
+	color: #2499f3;
+	background-color: #f6f9fb;
+	border-left: 2px solid #2499f3;
+}
+.profile_sidebar .profile_usermenu li a img {
+	margin: 0 18px 0 3px;
+	width: 20px;
+}
+.profile_sidebar .profile_usermenu li a span {
+	float: right;
+	color: #2499f3;
+}
+.profile_invite {
+	border: 1px solid #D9DADF;
+	border-radius: 5px;
+	margin-top: 20px;
+	padding: 10px;
+	font-size: 14px;
+	text-align: center;
+}
+.profile_invite a {
+	color: #2499f3;
+}
+.profile_invite a img {
+	margin-right: 15px;
+}
+.profile_hint {
+	color: #545E6A;
+	font-size: 14px;
+	margin: 20px auto;
+	text-align: center;
+}
+.profile_sidebar .profile_usermenu .MuiAppBar-root {
+	z-index: 1;
+}
+.profile_sidebar .profile_usermenu .MuiAppBar-positionFixed {
+	position: relative ;
+	background-color: transparent;
+}
+.profile_sidebar .profile_usermenu .MuiPaper-elevation4 {
+	box-shadow: none ;
+}
+.profile_sidebar .profile_usermenu .MuiTabs-root.MuiTabs-vertical {
+	margin: 0;
+	border: none;
+}
+.profile_sidebar .profile_usermenu .MuiTabs-scroller.MuiTabs-fixed {
+	box-shadow: 0px 2px 4px -1px rgba(10,13,27,0.14);
+	border-radius: 5px;
+}
+.profile_sidebar .profile_usermenu .MuiTabs-scroller.MuiTabs-fixed span.MuiTabs-indicator {
+	left: 0;
+	background-color: #2499f3 !important;
+}
+.profile_sidebar .profile_usermenu .MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary {
+	text-align: left;
+	font-family: "OpenSans";
+	font-size: 14px;
+	font-weight: 400;
+	color: #212A32;
+	margin-left: 5px;
+	text-transform: none;
+	padding-top:12px;
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.profile_sidebar .profile_usermenu .MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary svg{
+	color: #545E6A;
+}
+.profile_sidebar .profile_usermenu .MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary.Mui-selected,
+.profile_sidebar .profile_usermenu .MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary.Mui-selected svg{
+	color: #2499f3 ;
+}
+.profile_sidebar .profile_usermenu .MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary.last{
+	border-top: 1px solid #EFEBEB;
+	padding: 20px 0;
+	margin-top: 10px;
+}
+.profile_sidebar .profile_usermenu .MuiTabs-root .MuiSvgIcon-root {
+    margin-right: 10px;
+}
+.profile_sidebar .profile_usermenu .MuiTabs-flexContainerVertical div.MuiButtonBase-root {
+	display: block;
+}
+.profile_sidebar .profile_usermenu .MuiTabs-flexContainerVertical div.MuiButtonBase-root .notify {
+	float: right;
+	color: #2499f3;
+}

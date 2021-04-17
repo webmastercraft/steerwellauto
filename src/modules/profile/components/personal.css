@@ -1,0 +1,108 @@
+.profile h4 {
+	padding-bottom: 15px;
+	font-size: 18px;
+}
+.profile_flag {
+	position: absolute;
+    left: 25px;
+    top: 46px;
+}
+.phone_number_input {
+	padding-left: 40px !important;
+}
+.profile_paragraph.account .upload_container{
+	border: 2px dashed #bfcbda;
+	border-radius: 5px;
+	padding: 25px 0;
+	width: calc(100% - 30px);
+	background-color: #f9fafc;
+	margin-left: 15px;
+	text-align: center;
+	flex: none;
+}
+.profile_paragraph .add_info {
+	color: #A2ACB8;
+	text-align: left;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+.profile_paragraph.physical_address,
+.profile_paragraph.password,
+.profile_paragraph.language_currency{
+	border-top: 1px solid #efebeb;
+	padding-top: 30px;
+}
+.profile_content_info {
+	margin: 0 -15px 10px -15px !important;
+	padding-bottom: 25px;
+}
+.upload_description {
+	padding: 15px 0;
+	color: #A2ACB8;
+}
+.upload_image {
+	margin-top: 8px;
+}
+
+.physical_address .profile_content_info,
+.password .profile_content_info  {
+	padding-bottom: 5px;
+}
+
+.current_password {
+	width: 100%;
+	text-align: left;
+	color: #a2acb8;
+	margin-bottom: 20px;
+}
+.current_password input {
+	width: calc(50% - 15px);
+}
+.profile_actions {
+	float: right;
+	margin: 20px 0px;
+}
+.profile_actions button {
+	min-width: 160px;
+    min-height: 45px;
+	color: #545e6a;
+	margin-bottom: 10px;
+	background-color: white;
+}
+.profile_actions .btn_cancel {
+	margin-right: 10px;
+	background-color: unset;
+}
+.profile_actions button.green {
+	background-color: #2499f3;
+	color: #fff;
+}
+
+.language_currency .profile_content_info {
+	border: none;
+	margin-bottom: 0px !important;
+}
+
+.language_currency .profile_content_info .col-md-6 {
+	margin-bottom: 0;
+}
+
+.invalid_fields {
+	margin-bottom: 15px;
+}
+
+.react-phone-number-input {
+	border-radius: 5px;
+	border: 1px solid #BFCBDA;
+	color: #545E6A;
+	padding: 0px 15px;
+}
+.react-phone-number-input__input {
+	border: none !important;
+	border-radius: 5px !important;
+	padding: 22px 0px !important;
+}
+
+.rrui__select--compact {
+	width: 36px !important;
+}

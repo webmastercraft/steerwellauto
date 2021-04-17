@@ -1,0 +1,230 @@
+.page_profile {
+	padding: 40px 0 0;
+}
+
+.profile h3 {
+    text-align: left;
+    margin:0;
+    padding: 20px 30px;
+    font-size: 22px;
+    line-height: 30px;
+    border-bottom: 1px solid #efebeb;
+}
+.profile_content {
+	padding-top: 0;
+	box-shadow: 0px 2px 4px -1px rgba(10,13,27,0.14);
+	-webkit-box-shadow: 0px 2px 4px -1px rgba(10,13,27,0.14);
+	border-radius: 5px;
+	background: white;
+}
+.page_profile button{
+	text-transform: unset;
+}
+.top_pagination .MuiSelect-selectMenu::after {
+	top: 3px;
+}
+
+.profile_content_body{
+	padding: 20px 30px 0px 30px;
+}
+
+.profile_paragraph .col-md-6 {
+	margin-bottom: 20px;
+	text-align: left;
+}
+.profile .MuiInputBase-root{
+	height: 46px;
+	border-radius: 5px;
+    color: #545E6A;
+}
+.profile .MuiSvgIcon-root.MuiSelect-icon {
+	display: none;
+}
+.profile .MuiInput-underline:before,
+.profile .MuiInput-underline:hover:not(.Mui-disabled):before,
+.profile .MuiInput-underline.Mui-focused:after{
+	border: 0px;
+}
+.profile .MuiSelect-selectMenu{
+	padding: 8px 0;
+	color: #545E6A;
+	font-size: 14px;
+}
+.profile .MuiSelect-selectMenu:focus{
+	background: transparent;
+}
+.profile .MuiSelect-selectMenu:after{
+	position: absolute;
+	content: "\f107";
+    display: inline-block;
+    border: 0;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: 400;
+    right: 10px;
+	top: 13px;
+	color: #2499f3;
+	font-size: 14px
+}
+
+.Mui-focused.Mui-focused .MuiSelect-selectMenu:after {
+	content: "\f106" !important;
+}
+
+.profile_paragraph label {
+	color: #A2ACB8;
+	font-size: 14px;
+}
+.profile_paragraph input{
+	padding: 22px 15px;
+	font-size: 14px;
+	color: #212A32;
+}
+
+.profile_content .car-details-item{
+	position: relative;
+	float: left;
+	padding: 0 10px 20px 10px;
+	width: 33.33%;
+	min-width: unset;
+}
+
+.car-details-item-title {
+	margin: 10px auto;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.profile_content .car-details-item img {
+	width: 100%;
+}
+.profile_content .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline,
+.profile_content .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+	border: 1px solid #BFCBDA;
+}
+.car-details-item-type {
+	display: flex;
+	padding: 5px 10px;
+}
+
+div.new span.used_car {
+	display: none;
+}
+
+div.used span.new_car {
+	display: none;
+}
+
+span.type {
+	float: left;
+}
+
+span.brand {
+	float: right;
+}
+
+.car-details-item-details-content {
+	text-align: left;
+	padding: 10px;
+}
+
+.car_detail_property_value {
+	float: right;
+}
+
+.profile_content .car-details-item a {
+	padding: 5px 15px;
+	border: 1px solid #007bff;
+	text-decoration: none;
+	border-radius: 6px;
+}
+
+.profile_content .car-details-item a:hover {
+	color: #fff;
+	background-color: #007bff;
+}
+
+.car-details-item .car-details-item-details-content-left button:hover,
+.car-details-item .car-details-item-details-content-left button:focus,
+.car-details-item .car-details-item-details-content-left button:active{
+	background-color: #2499f3;
+}
+
+.recent-section-content {
+	text-align: center;
+}
+.recent-section-content ul {
+	list-style: none;
+	overflow: hidden;
+	padding: 0;
+	margin: 0 -20px 0 -20px;
+}
+.popular-section {
+	padding: 60px 10% 0 10%;
+	width: 100%;
+}
+.popular-section-title {
+	margin-bottom: 40px;
+	position: relative;
+}
+.popular-section-title-left h2 {
+	font-weight: bolder;
+}
+.popular-section-content {
+	text-align: center;
+}
+.popular-section-content ul {
+	list-style: none;
+	overflow: hidden;
+	padding: 0;
+}
+.popular-section-content ul li {
+	position: relative;
+	float: left;
+	padding: 0 4% 0 4%;
+	margin-bottom: 10px;
+	width: 14%;
+}
+.popular-section-content ul li p {
+	padding-top: 28px;
+    font-size: 1.8rem;
+}
+.popular-section-item-image-content {
+	height: 80px;
+	display: grid;
+
+}
+.popular-section-item-image-content img {
+	border-radius: 10px;
+	width: 100%;
+	margin: auto;
+}
+.popular-section-item-shadow {
+	width: 200%;
+	height: 5px;
+	margin-top: 12px;
+	box-shadow: 0px 2px 4px -1px rgba(10,13,27,0.14);
+	-webkit-box-shadow: 0px 2px 4px -1px rgba(10,13,27,0.14);
+	margin-left: -50%;
+}
+
+button.MuiIconButton-colorPrimary {
+	color: #2499f3 !important;
+}
+
+/*.page_route {
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+.page_route .personal_account {
+	color: #a4aeba;
+	padding-left: 10px;
+}
+.page_route .dir_sign {
+	width: 10px;
+	height: 12px;
+	margin: 0 15px;
+}
+.page_route .track_of_title {
+	color: #212a32;
+}*/

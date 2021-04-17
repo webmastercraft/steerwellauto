@@ -1,0 +1,25 @@
+.avatarModal {
+	position: absolute;
+	z-index: 100;
+	border: 1px solid;
+	margin: 0 auto;
+	background-color: #fff;
+	right: 30%;
+	left: 30%;
+}
+
+.avatarModal .Dropzone {
+	margin: 20%;
+}
+
+.avatarModal button {
+	opacity: 0.75;
+	border: none;
+	background-color: transparent;
+	font-weight: 100;
+	font-size: 1vw;
+}
+
+.avatarModal button:hover {
+	opacity: 1;
+}

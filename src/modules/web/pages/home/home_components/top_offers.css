@@ -1,0 +1,167 @@
+.homepage .row.top_offers .title{
+	margin-bottom: 15px;
+}
+.homepage .row.top_offers .title p{
+	margin-top: 16px;
+}
+.homepage .row.top_offers .top_offers_container
+{
+	border-radius: 10px;
+}
+.top_offers_container img{
+	width: 100%;
+}
+.homepage .row.top_offers .top_offers_container > .row{
+	display: flex;
+	margin-left: 0;
+}
+.homepage .row.top_offers .top_offers_container .img_block{
+	padding: 0;
+	overflow: hidden;
+	box-shadow: 0 2px 4px -1px rgba(10,13,27,0.14);
+	border-top-left-radius: 8px;
+}
+.homepage .row.top_offers .top_offers_container img.full_width{
+	width: 100%;
+}
+
+.homepage .row.top_offers .top_offers_container .image_over img{
+	height: 100%;
+	width: 100%;
+}
+.homepage .row.top_offers .top_offers_container .image_over{
+	border-top: 1px solid rgba(10,13,27,0.04);
+	border-bottom: 1px solid rgba(10,13,27,0.04);
+	height: 310px;
+}
+.homepage .row.top_offers .top_offers_container img.half_width{
+	height: 168px;
+}
+
+.homepage .row.top_offers .top_offers_container .top_left,
+.homepage .row.top_offers .top_offers_container .top_left img
+{
+	border-top-left-radius: 8px;
+}
+.homepage .row.top_offers .top_offers_container .bottom_left{
+	border-bottom-left-radius: 8px;
+}
+.homepage .row.top_offers .top_offers_container img.half_width{
+	width: 50%;
+	float: left;
+}
+.homepage .row.top_offers .top_offers_container .info_block{
+	background: white;
+	padding-left: 0;
+	padding-right: 0;
+	box-shadow: 0 2px 4px -1px rgba(10,13,27,0.14);
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+.homepage .row.top_offers .top_offers_container .top_offer_item{
+	padding: 0px;
+	height: 25% !important;
+	cursor: pointer;
+	overflow: hidden;
+	box-shadow: 0 1px 2px -1px #ccc;
+}
+.homepage .row.top_offers .top_offers_container .top_offer_item:hover{
+	background-color: #F9FAFC;
+}
+.homepage .row.top_offers .top_offers_container .top_offer_item:hover .title,
+.homepage .row.top_offers .top_offers_container .top_offer_item:hover .offers-item-distance{
+	color: #2499f3;
+}
+.homepage .row.top_offers .top_offers_container .top_offer_item:last-child{
+	border: 0;
+}
+.homepage .row.top_offers .top_offers_container .top_offer_item .offer_info{
+	width: 70%;
+	padding: 30px 30px;
+	float: left;
+	text-align: left;
+}
+.homepage .row.top_offers .top_offers_container .top_offer_item .title{
+	color: #212A32;
+	font-size: 16px;
+	margin-right: 15px;
+	font-family: "OpenSans-SemiBold";
+}
+.homepage .row.top_offers .top_offers_container .top_offer_item .tag{
+	color: #545E6A;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-size: 12px;
+	font-weight: 100;
+	display: inline-block;
+}
+.homepage .row.top_offers .top_offers_container .top_offer_item .offers-item-distance{
+	color: #545E6A;
+	font-size: 14px;
+	line-height: 28px;
+}
+.homepage .row.top_offers .top_offers_container .offer_book{
+	float: right;
+	width: 30%;
+	padding: 35px 30px;
+}
+@media (max-width: 1200px) {
+	.homepage .row.top_offers .top_offers_container .offer_book{
+		padding: 30px;
+	}
+	.homepage .row.top_offers .top_offers_container .top_offer_item .offer_info{
+		padding: 18px 20px;
+	}
+	.homepage .row.top_offers .top_offers_container .image_over{
+		height: 260px;
+	}
+	.homepage .row.top_offers .top_offers_container img.half_width{
+		height: 142px;
+	}
+}
+@media (max-width: 992px) {
+	.homepage .row.top_offers .top_offers_container .image_over{
+		height: 195px;
+	}
+	.homepage .row.top_offers .top_offers_container img.half_width{
+		height: 195px;
+		width: 100%;
+	}
+}
+@media (max-width: 768px) {
+	.homepage .row.top_offers .top_offers_container > .row{
+		display: block;
+	}
+	.homepage .row.top_offers .top_offers_container .img_block{
+		margin-right: 15px;
+		margin-left: 15px;
+		border-top-left-radius: 8px;
+		border-top-right-radius: 8px;
+ 	}
+	.homepage .row.top_offers .top_offers_container .info_block{
+		margin-left: 15px;
+		margin-right: 15px;
+		border-top-right-radius: 0px;
+		border-bottom-left-radius: 8px;
+	}
+	.homepage .row.top_offers .top_offers_container .top_left{
+		border-top-left-radius: 8px;
+		border-top-right-radius: 8px;
+	}
+	.homepage .row.top_offers .top_offers_container .bottom_left{
+		border-radius: 0;
+	}
+	.homepage .row.top_offers .top_offers_container .image_over{
+		height: auto;
+	}
+	.homepage .row.top_offers .top_offers_container img.half_width{
+		height: 161px;
+		width: 50%;
+	}
+}
+@media (max-width: 576px) {
+	.homepage .row.top_offers .top_offers_container img.half_width{
+		height: 31vw;
+		width: 50%;
+	}
+}

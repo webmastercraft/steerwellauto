@@ -1,0 +1,5 @@
+
+export const BlogActionTypes = {
+	GET_BLOGDATA:'GET_BLOGDATA',
+	GET_ARTICLEDATA:'GET_ARTICLEDATA',
+}

@@ -1,0 +1,306 @@
+
+.bus_page .row.background_img{
+	background: url('/imgs/bus_bg.png');
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 50px;
+}
+.bus_page .row.background_img h3{
+	color: white;
+	line-height: 200px;
+}
+.bus_page .browse_page_container{
+	padding-bottom: 100px;
+}
+.bus_page .browse_page_container p{
+	font-size: 16px;
+	color: #212A32;
+}
+.bus_page .browse_page_container.container > div.row{
+	padding: 0;
+}
+.bus_page .browse_page_container .browser_section_left input{
+	text-align: center;
+}
+.browser_section_left{
+	padding: 5px 0 0;
+	margin-top: 30px;
+	overflow: hidden;
+}
+.browser_section_left .left_item{
+	border-bottom: 1px solid #eee;
+	padding: 20px 25px;
+}
+.browser_section_left h4.item_title {
+	margin: 0;
+	font-size: 16px;
+}
+.browser_section_left fieldset{
+	border-color: #BFCBDA;
+}
+.browser_section_left input{
+	height: 45px;
+}
+.browser_section_left .MuiSlider-rail{
+	height: 1px;
+}
+.browser_section_left .MuiSlider-track{
+	height: 2px;
+}
+.browser_section_left .body_wrapper {
+	padding: 20px 0px 5px;
+}
+.browser_section_left .body_wrapper.row{
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.browser_section_left .body_wrapper.browser_section_make .MuiInputBase-root .MuiSelect-icon{
+	font-size: 18px;
+	top: calc(50% - 8px);
+}
+.browser_section_left .browser_section_make .MuiOutlinedInput-root{
+	height: 45px;
+	margin-bottom: 10px;
+	color: #545E6A;
+	font-weight: normal;
+	font-size: 14px;
+}
+
+.browser_section_left .body_type_item {
+	padding-left: 8px !important;
+	padding-right: 8px !important;
+	padding-bottom: 10px;
+}
+.browser_section_left .browser_section_make > div{
+	width: 100%;
+}
+.browser_section_left .input2_wrapper {
+	width: 100%;
+	display: flex;
+}
+.browser_section_left .input_left {
+	width: 45%;
+}
+.browser_section_left .input_left input {
+	width: 100%;
+}
+.browser_section_left .separator {
+	width: 10%;
+	display: flex;
+}
+.browser_section_left .separator p {
+	margin: auto;
+}
+.browser_section_left .input_right {
+	width: 45%;
+}
+.browser_section_left .input_right input {
+	width: 100%;
+}
+.browser_section_left .browser_section_left_item_apply {
+	background-color: #2499f3;
+	border-color: #2499f3;
+	color: white;
+	width: 100%;
+	text-transform: unset;
+	font-size: 14px;
+}
+/* ---- end left side ------ */
+
+
+
+/* ---- start right side ------ */
+
+.browser_section_right>div {
+	margin-top: 30px;
+	background: white;
+}
+
+.right_title{
+	border-bottom: 1px solid #EFEBEB;
+	display: flex;
+}
+
+.right_title h4 {
+	font-size: 16px;
+	margin: 0;
+	width: 30%;
+	margin-left: 25px;
+	margin-top: 25px;
+}
+
+.right_title .top_pagination{
+	text-align: right;
+	margin-right: 30px;
+	margin-left: auto;
+}
+
+.right_title span{
+	font-family: "OpenSans";
+	color: #545E6A;
+}
+.right_title .top_pagination div{
+	color: #212A32;
+}
+
+.right_title .top_pagination .MuiInputBase-root.MuiOutlinedInput-root {
+	height: 45px;
+}
+
+.right_title .top_pagination label{
+	line-height: 75px;
+	margin-bottom: 0;
+	color: #545E6A;
+	margin-right: 10px;
+	font-size: 16px;
+}
+
+.right_title .top_pagination .MuiInputBase-root .MuiSelect-icon {
+	font-size: 18px;
+	top: calc(50% - 7px);
+	right: 12px;
+}
+.right_title .top_pagination .MuiSelect-select{
+	line-height: 40px;
+	font-size: 14px;
+	padding: 4px 45px 0 15px;
+	overflow: inherit;
+}
+.right_title .top_pagination label.sort{
+	margin-left: 30px;
+}
+
+.right_content{
+	padding-left: 25px;
+	padding-right: 0;
+}
+
+
+div.row.searchresult_item {
+	margin: 0;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	border-bottom: 1px solid #EFEBEB;
+}
+
+div.searchresult_item_description{
+	padding-left: 0;
+	border-right: 1px solid #EFEBEB;
+}
+
+div.searchresult_item_image {
+	padding-right: 3%;
+	padding-left: 0;
+	cursor: pointer;
+}
+
+.searchresult_item_image img {
+	height: 150px;
+	width: 100%;
+	border-radius: 5px;
+}
+.searchresult_item_title label {
+	color: #212A32;
+	font-size: 1.1rem;
+	margin: 0;
+	padding-top: 5px;
+	font-family: "OpenSans-SemiBold";
+}
+.searchresult_item_type {
+	padding: 0px 15px;
+}
+.searchresult_item_type ul {
+	list-style: none;
+	overflow: hidden;
+	display: inline-block;
+	padding: 0;
+	width: 100%;
+	margin: 0;
+	margin-top: 10px;
+}
+.searchresult_item_type ul li {
+	float: left;
+	padding: 0 10px 0 0;
+
+}
+.searchresult_item_type ul li label {
+	text-align: center;
+	font-size: 12px;
+	color: #212A32;
+	margin: 0;
+	border-radius: 5px;
+	background-color: #f3f4f7;
+	padding: 4px 10px;
+}
+
+.searchresult_item_property{
+	margin-top: 10px;
+}
+
+.searchresult_item_property_name {
+	color: #545E6A;
+	font-size: 12px !important;
+	margin-top: 15px;
+	margin-bottom: 0;
+}
+.searchresult_item_property_value {
+	padding-top: 5px;
+	color: #212A32;
+	font-family: "OpenSans-SemiBold";
+	font-size: 0.9rem;
+}
+.searchresult_item_price {
+	display: flex;
+	text-align: center;
+}
+.searchresult_item_price .searchresult_item_price_content{
+	width:100%;
+}
+.searchresult_item_price .searchresult_item_price_content label{
+	color: #212A32;
+	font-family: "OpenSans-SemiBold";
+	margin-top: 20%;
+}
+
+.searchresult_item_price_content button:hover,
+.searchresult_item_price_content button:focus,
+.searchresult_item_price_content button:active{
+	background-color: #2499f3;
+	outline: none;
+}
+
+
+
+
+
+/* general button style */
+.MuiInputBase-root .MuiSelect-icon
+{
+	color: #2499f3;
+}
+.search button.MuiButtonBase-root{
+	text-transform: capitalize;
+	font-size: 18px;
+}
+.searchresult_item_price_content button.MuiButtonBase-root{
+    background-color: #2499f3;
+    padding: 6px 45px;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.searchresult_item_price_content button.MuiButtonBase-root .MuiButton-label{
+    color: white;
+}
+.searchresult_item_price_content button.MuiButtonBase-root:hover{
+    background-color: #24aaf3;
+}
+.searchresult_item_price_content button.MuiButtonBase-root:hover .MuiButton-label{
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 992px) {
+	.searchresult_item_price_content button.MuiButtonBase-root{
+		padding: 8px 25px;
+	}
+}

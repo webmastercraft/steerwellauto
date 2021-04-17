@@ -1,0 +1,54 @@
+.body_type_item .item .check_icon{
+	position: absolute;
+	top: -10px;
+	right: 0;
+	color: #2499f3;
+	background-color: white;
+	border-radius: 50%;
+	display: none;
+}
+
+.body_type_item .item.selected .check_icon{
+	display: block;
+}
+.body_type_item .item{
+	background-color: #f2f4f6;
+	border-radius: 5px;
+	border: 1px solid #f2f4f6;
+	cursor: pointer;
+}
+
+.body_type_item .item:hover,
+.body_type_item .item:focus{
+	border: 1px solid #2499f3;
+}
+
+.body_type_item .item:active{
+	border: 1px solid #2499f3;
+}
+
+.body_type_item p {
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+.body_type_item .img_wrapper {
+	height: 52px;
+	padding-top: 10px;
+	display: grid;
+}
+.body_type_item img {
+	border-radius: 10px;
+	margin: auto;
+}
+.body_type_item .item.selected{
+	border: 1px solid #2499f3;
+}
+.body_type_item .item.selected i{
+	position: absolute;
+	color: #2499f3;
+	top: -5px;
+	right: 4px;
+	background-color: white;
+	border-radius: 50%;
+}

@@ -1,0 +1,16 @@
+.ExpansionView {
+	box-shadow: 0px 3px 16px -7px;
+}
+
+.expantion-content .MuiSvgIcon-root.show{
+	display: block;
+}
+
+.expantion-content .MuiSvgIcon-root.hide{
+	display: none;
+}
+
+.expantion-content .MuiSvgIcon-root{
+	margin-left: auto;
+	color: #2499f3;
+}

@@ -1,0 +1,45 @@
+.carousel .control-dots li.dot{
+	margin: 0 4px;
+	outline: none;
+}
+.carousel .control-dots .dot.selected{
+	background: #2499f3;
+}
+
+.no-thumb .carousel > .thumbs-wrapper{
+	display: none;
+}
+
+.left-dots .control-dots{
+	text-align: left;
+	margin-left: 0;
+	padding-left: 10px;
+}
+.right-dots .control-dots{
+	text-align: right;
+	margin-right: 0;
+	padding-right: 10px;
+}
+.arrow-bottom-right .carousel.carousel-slider .control-arrow{
+	border: 2px solid white;
+	border-radius: 5px;
+	top: inherit;
+	height: 35px;
+	width: 35px;
+	bottom: 20px;
+	padding: 0;
+}
+.arrow-bottom-right .carousel.carousel-slider .control-arrow:before{
+	margin: 8px auto;
+}
+.arrow-bottom-right .carousel.carousel-slider .control-next.control-arrow{
+	right: 20px;
+}
+.arrow-bottom-right .carousel.carousel-slider .control-prev.control-arrow{
+	left: inherit;
+	right: 60px;
+}
+.arrow-bottom-right .carousel .slide .legend{
+	top: 20px;
+	bottom: inherit;
+}

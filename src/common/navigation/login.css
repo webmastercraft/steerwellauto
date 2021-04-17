@@ -1,0 +1,318 @@
+.modal.steerModal{
+	opacity: 1;
+	display: block;
+	padding: 0 5%;
+}
+
+.modal-container {
+	top: 0%;
+	left: 0%;
+}
+.modal.steerModal .modal-dialog
+{
+	height: 625px;
+	margin: 100px auto;
+	max-width: none;
+	max-width: 934px;
+	width: 100%;
+}
+.login-toggle-btn {
+	color: white;
+	background-color: transparent;
+	border: 1px solid #E1E8EE;
+	border-radius: 5px;
+	padding: 9px 5px;
+	min-width: 115px;
+	text-align: center;
+	margin: 0 5px;
+	font-size: 14px;
+}
+.col-md-6.left_image_login{
+	background-image: url("/static/img/halfcarlogin.jpg");
+	border-radius:5px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	background-size: cover;
+	background-position: 15px center;
+	background-repeat: no-repeat;
+}
+.col-md-6.left_image_signup{
+	background-image: url("/static/img/halfcarsignup.jpg");
+	border-radius:5px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	background-size: cover;
+	background-position: 15px center;
+	background-repeat: no-repeat;
+}
+h2.login_title{
+	text-align: center;
+	font-size: 28px;
+	color: #212A32;
+	font-weight: bold;
+	margin-top: 27px;
+}
+.close.close_dialog{
+	margin-right: 20px;
+	margin-top: 20px;
+	font-size: 25px;
+	font-weight: 100;
+}
+p.login_content{
+	text-align: center;
+	font-size: 14px;
+	margin-top: 10px;
+}
+label.email_phone_password, .terms_privacy{
+	color: #A2ACB8;
+	font-size: 14px;
+	margin-left: 35px;
+	margin-top: 15px;
+	width: calc( 100% - 85px);
+}
+
+.password_warning_show {
+	float: right;
+	color: #dc3545;
+}
+
+.password_warning_hide {
+	display: none;
+}
+
+.input_validation_invaild {
+	border: 1px solid #dc3545 !important;
+}
+
+.input_invaild_feedback {
+  width: 100%;
+  margin-top: 0.25rem;
+  margin-left: 35px;
+  font-size: 80%;
+  color: #dc3545;
+}
+
+.terms_privacy label{
+	line-height: 20px;
+	margin: 10px auto;
+}
+.terms_privacy .MuiIconButton-root:hover{
+	border-radius: 0;
+	background: transparent;
+}
+.terms_privacy label > span{
+	padding-left: 0px;
+	padding-right: 7px;
+}
+.right_dialog_window input[type="text"], .right_dialog_window input[type="password"]{
+	height: 45px;
+	margin-left: 35px;
+	width: calc( 100% - 85px);
+	margin-top: 5px;
+}
+.right_dialog_window button.close{
+	position: absolute;
+	right: 20px;
+}
+p.forgot_password{
+	color: #2499f3;
+	font-size: 14px;
+	text-align:right;
+	margin-top: 7px;
+	margin-right: 50px;
+}
+.forgot_password a{
+	color: #2499f3;
+}
+#continue_btn{
+	height: 45px;
+	margin-top: 14px;
+	color: white;
+	background-color: #2499f3;
+}
+#signup_google{
+	text-align:center;
+	height: 45px;
+	margin-top: 3px;
+}
+#signup_facebook{
+	text-align:center;
+	height: 45px;
+	margin-top: 10px;
+}
+.right_dialog_window button.btn{
+	font-size: 14px;
+	color: #212A32;
+	margin-left: 35px;
+	width: calc( 100% - 85px);
+	border-color: #2499f3;
+}
+p.choose_signup{
+	text-align: center;
+	font-size: 14px;
+	color:black;
+	margin-top: 15px;
+}
+
+p.member_not{
+	font-size: 14px;
+	text-align: center;
+	margin-top: 40px;
+	color: #545E6A;
+	margin-bottom: 30px;
+}
+.smallicon{
+	margin-left: 8px;
+	float: left;
+	margin-top: 2px;
+}
+.txtWrapper{
+	position: absolute;
+	padding: 0 15px 0 15px;
+	bottom: 20px;
+}
+h6.left_bottom_title{
+	color: white;
+	margin-left: 15px;
+	font-weight: bold;
+}
+.modal-dialog p.left_bottom_content{
+	margin-left: 15px;
+	color: #76808a;
+	font-size: 14px;
+}
+p.account_already{
+	font-size: 14px;
+	text-align: center;
+	margin-top: 160px;
+	margin-bottom: 30px;
+	color: #545E6A;
+}
+#signup{
+	color: #2499f3;
+	text-decoration: underline;
+	padding-left: 10px;
+}
+#signupbtn{
+	height: 45px;
+	margin-top: 10px;
+	color: white;
+	font-size: 13px;
+	background-color: #2499f3;
+}
+.signup{
+	color: #2499f3;
+	text-decoration: underline;
+	padding-left: 10px;
+}
+.modal.steerModal .modal-dialog .modal-content{
+	overflow: hidden;
+	border-radius: 5px;
+}
+
+.show_Done {
+	float: right;
+	color: #2499f3;
+}
+
+.hide_Done {
+	display: none !important;
+}
+
+
+
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none !important; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-sm {
+    display: none !important; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hidden-md {
+    display: none !important; } }
+
+@media (min-width: 1200px) {
+  .hidden-lg {
+    display: none !important; } }
+
+
+@media (max-width: 768px) {
+	.right_dialog_window label.email_phone_password,
+	.right_dialog_window p.terms_privacy,
+	.right_dialog_window input[type="text"],
+	.right_dialog_window input[type="password"],
+	.right_dialog_window button.btn{
+		width: 70%;
+		margin-left: 15%;
+	}
+	.right_dialog_window .forgot_password{
+		margin-right: 15%;
+	}
+	.modal.steerModal .modal-dialog{
+		max-width: 510px;
+	}
+	.terms_privacy label{
+		font-size: 11px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.right_dialog_window .email_phone_password,
+	.right_dialog_window .terms_privacy,
+	.right_dialog_window input[type="text"],
+	.right_dialog_window input[type="password"],
+	.right_dialog_window button.btn{
+		max-width: 375px;
+		margin-left: 35px;
+	}
+}
+
+.steerModal input::placeholder {
+	opacity: 0;
+}
+@media (max-height: 670px) {
+	.modal.steerModal .modal-dialog{
+		margin-top: 3vh;
+		max-height: 94vh;
+		transform: none;
+		overflow: hidden;
+	}
+	.modal.steerModal .modal-dialog .modal-content,
+	.modal.steerModal .modal-dialog .modal-content .row
+	.modal.steerModal .modal-dialog .modal-content .col-md-6{
+		max-height: 100%;
+	}
+	.steerModal input::placeholder {
+		opacity: 1;
+	}
+	.right_dialog_window label.email_phone_password{
+		display: none;
+	}
+	.right_dialog_window p.choose_signup{
+		display: none;
+	}
+	.right_dialog_window button.btn{
+		margin-top:14px !important;
+	}
+	.right_dialog_window p.account_already{
+		margin-top: 140px;
+	}
+	#SignUpPwdConfirm p.account_already{
+		margin-top: 110px;
+	}
+
+
+	/*window .forgot{
+		margin-bottom: 1%;
+	}
+	.window .not{
+		margin-top: 1%;
+		margin-bottom: 1%;
+	}
+	.window .already{
+		margin-top: 3%;
+		margin-bottom: 1%;
+	}*/
+}

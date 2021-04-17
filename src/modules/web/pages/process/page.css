@@ -1,0 +1,375 @@
+.process_page_container{
+	background-color: #f6f7f8;
+}
+.process_page_container p{
+	font-size: 16px;
+	line-height: 26px;
+}
+.process_page_container .white_bg{
+	background-color: white;
+}
+.process_page_container a{
+	color: #2499f3;
+}
+.process_page_container .title{
+	font-size: 28px;
+	padding-top: 30px;
+	font-family: "OpenSans-SemiBold";
+}
+
+.process_page_container .title:after{
+	content: url("/imgs/title_bar.png");
+	padding-left: 15px;
+}
+.process_page_container .customer_review .title:after{
+	content: none;
+}
+
+.process_page_container .title_center:after{
+	content: url("/imgs/title_bar.png");
+	padding-left: calc(50% - 45px);
+}
+
+.process_page_container .title_center{
+	text-align: center;
+	font-size: 28px;
+	font-family: "OpenSans-SemiBold";
+	padding-top: 30px;
+}
+
+.process_page_container .row.background_img{
+	height: 430px;
+	background: url('/imgs/process_bg.png');
+	background-size: cover;
+	background-position: center;
+	display: block;
+}
+
+.process_page_container .row.background_img div{
+	width: 100%;
+	font-size: 28px;
+	color: white;
+	text-align: center;
+	padding-top: 160px;
+	font-family: "OpenSans-SemiBold";
+}
+
+.process_page_container .row.background_img p{
+	color: white;
+	text-align: center;
+	width: 100%;
+	padding-left: 30%;
+	padding-right: 30%;
+	margin-top: 30px;
+	line-height: 26px;
+}
+
+.process_page_container .row.benefit{
+	padding-top: 120px;
+	background-color: #f6f7f8;
+	padding-bottom: 40px;
+}
+
+.process_page_container .row.benefit .container{
+	display: flex;
+}
+
+.process_page_container .row.benefit div.col-md-4{
+	padding: 30px 15px;
+}
+
+.process_page_container .row.benefit div.col-md-4 .body{
+	border-radius: 5px;
+	padding: 40px 20px 10px;
+	box-shadow: 0px 3px 4px -3px rgba(10,13,27,0.2);
+}
+
+.process_page_container .row.benefit .body div{
+	font-size: 18px;
+	font-family: "OpenSans-SemiBold";
+	color: #212A32;
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 20px;
+}
+
+.process_page_container .row.benefit .body p{
+	text-align: center;
+	margin: 25px 20px;
+}
+
+.process_page_container .row.benefit img{
+	position: absolute;
+	top: -10px;
+}
+
+.process_page_container .row.benefit img.browse_img{
+	left: calc(50% - 97px);
+}
+
+.process_page_container .row.benefit img.quotation_img{
+	left: calc(50% - 34px);
+	top: -20px;
+}
+
+.process_page_container .row.benefit img.time_img{
+	left: calc(50% - 46px);
+	top: -16px;
+}
+
+.process_page_container .row.detail{
+	padding-top: 100px;
+}
+
+.process_page_container .row.detail .container{
+	display: flex;
+}
+
+.process_page_container .row.detail .detail_img img{
+	width: 86%;
+	float: right;
+}
+
+.process_page_container .row.detail p{
+	margin-top: 40px;
+
+}
+
+.process_page_container .row.inspection{
+	padding-top: 70px;
+}
+
+.process_page_container .row.inspection .container{
+	display: flex;
+}
+
+.process_page_container .row.inspection .inspection_content{
+	padding-top: 100px;
+}
+
+div.inspection>p{
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.process_page_container .row.inspection .inspection_content .description{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.process_page_container .row.inspection .inspection_content .description div:first-child{
+	margin-bottom: 15px;
+}
+
+.process_page_container .row.inspection .inspection_img img{
+	width: 89%;
+}
+
+.process_page_container .row.inspection .inspection_content .inspection_property{
+	margin-right: 20px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-top: 1px solid #efebeb;
+}
+
+.process_page_container .row.inspection .inspection_content .inspection_property .property_name{
+	font-size: 20px;
+	font-weight: bold;
+	width: 90%;
+	float: left;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.process_page_container .row.inspection .inspection_content .inspection_property i,
+.process_page_container .row.inspection .inspection_content .inspection_property i:before{
+	font-size: 20px;
+	color: #2499f3;
+	width: 10%;
+	text-align: right;
+	padding-top: 10px;
+}
+
+.process_page_container .row.pricing{
+	padding-top: 70px;
+}
+
+.process_page_container .row.pricing .pricing_img{
+	padding-top: 45px;
+	padding-bottom: 100px;
+}
+
+.process_page_container .row.pricing .pricing_img img{
+	width: 100%;
+}
+
+.process_page_container .row.quotation{
+	background-color: #f6f7f8;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.process_page_container .row.quotation p{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
+.process_page_container .row.quotation .quotation_btn{
+	display: flex;
+}
+
+.process_page_container .row.quotation .quotation_btn input{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #2499f3;
+	padding: 15px 50px;
+	color: white;
+}
+
+.process_page_container .row.save_process{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.process_page_container .row.save_process .save_content{
+	margin-top: 50px;
+}
+
+.process_page_container .row.save_process .save_content .save_type div{
+	font-family: "OpenSans-SemiBold";
+	font-size: 20px;
+}
+
+.process_page_container .row.save_process .save_content .save_type p{
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.process_page_container .row.save_process .save_content .save_img img{
+	width: 100%;
+}
+.process_page_container .customer_review{
+	padding-bottom: 50px;
+}
+.process_page_container .row.question{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.process_page_container .row.question .question_head .title{
+	padding-top: 10px;
+}
+
+.process_page_container .row.question .question_head{
+	margin-bottom: 30px;
+}
+
+.process_page_container .row.question .question_head p{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.process_page_container .row.question .question_head a{
+	font-size: 18px;
+	color: #212A32 !important;
+	font-family: "OpenSans-SemiBold";
+}
+
+.process_page_container .row.question .question_expantion .question_text{
+	border-bottom: 1px solid #eee;
+	font-weight: bold;
+	display: block;
+    overflow: hidden;
+}
+
+.process_page_container .row.question .question_expantion .question_text:last-child{
+	border-bottom: none;
+}
+
+.process_page_container .row.question .question_expantion .question_text i,
+.process_page_container .row.question .question_expantion .question_text i:before{
+	float: right;
+	color: #2499f3;
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+.process_page_container .row.question .question_expantion .question_text div{
+	float: left;
+	margin: 20px 0;
+	width: 90%;
+	font-size: 16px;
+}
+div.see_all_link a{
+	line-height: 70px;
+	text-decoration: none;
+	font-size: 16px;
+	color: #2499f3;
+	font-family: "OpenSans-SemiBold";
+}
+div.see_all_link .MuiSvgIcon-root{
+	margin-left: 5px;
+	transform: rotate(180deg);
+	color: #2499f3;
+}
+.process_page_container .row.inspection .inspection_content  .expantion_body:first-child{
+	border-top: 1px solid rgba(0, 0, 0, .125);
+}
+
+.process_page_container .row.inspection .inspection_content  .expantion_body{
+	padding: 0;
+}
+
+.process_page_container .row.question .question_expantion  .expantion_body{
+	padding: 0;
+	padding-right: 10px;
+}
+
+.process_page_container .ex_title{
+	font-family: "OpenSans-SemiBold";
+	font-size: 18px;
+	color: #212A32;
+	line-height: 52px;
+}
+.process_page_container .MuiButtonBase-root .MuiSvgIcon-root{
+	font-size: 24px;
+	margin-top: 15px;
+}
+.process_page_container .row.question .ex_title{
+	font-size: 1rem;
+}
+
+.process_page_container .row.inspection .inspection_content  .ex_content{
+	font-family: "OpenSans";
+	padding-bottom: 20px;
+	line-height: 35px;
+}
+
+.process_page_container .row.inspection .inspection_content .MuiExpansionPanelDetails-root{
+	padding: 0;
+}
+
+@media (max-width: 992px) {
+	.process_page_container .row.benefit div.col-md-4{
+		margin-top: 20px;
+	}
+	.process_page_container .row.detail{
+		padding-top: 50px;
+	}
+	.process_page_container .row.detail .detail_img img,
+	.process_page_container .row.inspection .inspection_img img,
+	.process_page_container .row.save_process .save_content .save_img img{
+		float: none;
+		width: 70%;
+		margin: 20px 15%;
+	}
+	.process_page_container .row.inspection .inspection_content .inspection_property{
+		margin-right: 0;
+	}
+}
+@media (min-width: 992px) {
+	.process_page_container .row.benefit .body{
+		min-height: 240px;
+	}
+}

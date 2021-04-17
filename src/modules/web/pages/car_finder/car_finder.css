@@ -1,0 +1,23 @@
+.form_block .sub_title{
+	font-size: 16px;
+	margin-top: 25px;
+	margin-bottom: 0;
+}
+.form_block .image_uploader
+{
+	border: 1px dashed #BFCBDA;
+	border-radius: 5px;
+	width: 100%;
+	background: #f6f7f8;
+	padding: 20px 0;
+	text-align: center;
+}
+.form_block .image_uploader img{
+	width: 30px;
+	margin:0 auto;
+}
+.form_block .image_uploader p{
+	color: #A2ACB8;
+	font-size: 14px;
+	margin: 10px 0 0;
+}

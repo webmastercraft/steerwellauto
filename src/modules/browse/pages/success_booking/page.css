@@ -1,0 +1,82 @@
+.booking_success{
+	background-color: white;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding: 60px;
+	box-shadow: 0px 2px 4px -1px rgba(10,13,27,0.14);;
+	font-size: 14px;
+	color: #212A32;
+}
+
+.booking_success .success_img{
+	display: flex;
+}
+
+.booking_success .success_img img{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.booking_success .success_text{
+	font-size: 25px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: #212A32;
+	font-family: "OpenSans-SemiBold"
+}
+
+.booking_success .success_description{
+	width: 70%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: bold;
+	margin-bottom: 30px;
+	line-height: 24px;
+}
+
+.booking_success .success_file{
+	display: flex;
+}
+
+.booking_success .success_file a{
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+}
+
+.booking_success .success_file img{
+	margin-right: 10px;
+}
+
+.booking_success .success_file .file_name{
+	color: #2499f3;
+}
+
+.booking_success .file_description{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-weight: bold;
+	line-height: 24px;
+}
+
+.booking_success .back_btn{
+	display: flex;
+	padding-bottom: 20px;
+}
+
+.booking_success .back_btn a{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.booking_success .back_btn button{
+	padding: 15px 40px;
+	font-size: 16px;
+	color: #212A32;
+	background-color: white !important;
+	border: 1px solid #2499f3 !important;
+	text-transform: none;
+}

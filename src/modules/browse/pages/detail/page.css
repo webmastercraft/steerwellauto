@@ -1,0 +1,490 @@
+.MuiSvgIcon-root.MuiSelect-icon.MuiSelect-iconOutlined{
+	color: #2499f3 !important;
+}
+
+.details_section .gallery_container{
+	cursor: pointer;
+}
+
+.details_section h4{
+	line-height: 45px;
+	margin-bottom: 15px;
+	color: #212A32;
+}
+.details_section .block_divider{
+	overflow: hidden;
+	margin: 30px 15px 10px;
+	width: calc( 100% - 30px);
+	border-top: 1px solid #EFEBEB;
+	padding-top: 20px;
+}
+
+.details_section .detail_brief{
+	margin-top: 50px;
+}
+
+.details_section .detail_brief .price{
+	margin-left: 20px;
+}
+
+.details_section .detail_brief .description{
+	line-height: 24px;
+	font-size: 16px;
+	margin-top: 20px;
+}
+
+.detail_brief_left {
+	display: flex;
+	line-height: 30px;
+	border-right: 1px solid #BFCBDA;
+}
+
+.detail_brief_left span {
+    padding: 3px 7px;
+    border: 1px solid #B4BDC8;;
+    width: 74px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    height: 35px;
+    margin-top: 5px;
+    margin-left: 12px;
+    margin-bottom: 0px;
+}
+
+.detail_brief_right p {
+	margin: 0;
+}
+.detail_brief_right h5 {
+	font-weight: bold;
+	color: #2499f3;
+	font-size: 18px;
+}
+
+.detail_brief_right .quote_btn{
+	width: 100%;
+	border-color: #2499f3;
+	font-family: "OpenSans-SemiBold";
+	font-size: 16px;
+	text-transform: unset;
+	margin-top: 0;
+}
+
+.details_overview_content {
+	display: flex;
+}
+
+.detail_overview_item {
+	display: flex;
+	width: 19%;
+	height: 50px;
+}
+.detail_overview_item.big{
+	width: 24%;
+}
+.detail_overview_item_left {
+	width: 24px;
+}
+.detail_overview_item_left img {
+	max-width: 22px;
+	max-height: 22px;
+}
+.detail_overview_item_right {
+	padding: 3px 12px;
+}
+.detail_overview_item_right p {
+	margin: 0;
+	color: #545E6A;
+	/*font-size: 1.4rem;*/
+	font-size: 14px;
+}
+
+.detail_features_item {
+	width: 25%;
+	padding: 0 50px 0px 0px;
+}
+
+.detail_features_item h5 {
+	margin-bottom: 1rem;
+	font-size: 14px;
+}
+
+.detail_features_item p {
+	color: #545E6A;
+	margin: 0;
+	line-height: 24px;
+	font-size: 14px;
+}
+
+.detail_features_content {
+	display: flex;
+}
+.detail_features span.show_all_link{
+	display: block;
+	min-height: 40px;
+}
+.detail_features span.show_all_link a,
+.faq_container span.show_all_link a {
+	right: unset;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+.detail_spec_item {
+	display: flex;
+	margin-top:10px;
+}
+
+.detail_spec_item h5 {
+	width: 200px;
+	padding-right: 20px;
+	font-size: 14px;
+}
+
+.detail_spec_item p {
+	width: calc(100% - 200px);
+}
+
+.mechanical_content {
+	padding: 20px 0;
+}
+.mechanical_content .content_list_item {
+	position: relative;
+	padding: 10px 0;
+
+}
+
+.mechanical_content .content_list_item label {
+	font-size: 14px;
+	font-family: "OpenSans";
+	color: #212A32;
+}
+.mechanical_content .content_list_item img {
+	position: absolute;
+	width: 20px;
+	right: 0;
+	top: 14px;
+}
+.mechanical_right img {
+	width: 100%;
+}
+.mechanical_right p {
+	color: #545E6A;
+	line-height: 24px;
+	font-size: 15px;
+}
+.action_item {
+	display: flex;
+}
+.action_item img {
+	width: 24px;
+	height: 20px;
+	margin-top: 5px;
+}
+.action_item p {
+	color: #545E6A;
+	padding: 4px 12px;
+}
+
+.select_section {
+	padding: 20px 0;
+}
+.select_section>div {
+	width: 100%;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+.select_section .MuiSelect-root{
+	padding: 14px 15px;
+	border: 1px solid #BFCBDA;
+	color: #545E6A;
+}
+
+.booking_option_item {
+	display: flex;
+	padding-top: 10px;
+	font-size: 14px;
+}
+.booking_option_item .item_left {
+	width: 50%;
+}
+.booking_option_item .item_left label {
+	color: #545E6A;
+}
+.booking_option_item .item_right {
+	width: 50%;
+	text-align: right;
+}
+.booking_option_item .item_right label {
+	font-family: "OpenSans-SemiBold";
+	color: #212A32;
+}
+
+.price_left {
+	width: 50%;
+}
+.price_left p {
+	color: #545E6A;
+}
+.price_right {
+	width: 50%;
+	text-align: right;
+}
+.price_right h5 {
+	font-size: 18px;
+	color: #2499f3;
+}
+.price_right button {
+	background-color: #2499f3;
+	border-color: #2499f3;
+	width: 100%;
+	height: 50px;
+	margin-top: 30px;
+}
+
+.booking_btn {
+    margin-top: 30px;
+    background-color: #2499f3;
+    border-color: #2499f3;
+    width: 100%;
+    color: white;
+	text-transform: unset;
+	padding: 12px;
+	font-size: 1rem;
+	font-family: "OpenSans-SemiBold";
+}
+
+.livechat_btn {
+    margin-top: 15px;
+    border-color: #2499f3;
+    width: 100%;
+    color: #212A32;
+	text-transform: unset;
+	padding: 12px;
+	font-size: 1rem;
+	font-family: "OpenSans-SemiBold";
+}
+
+.booking_btn:hover,
+.livechat_btn:hover {
+	background-color: #2499f3;
+	color: white;
+}
+
+.detail_booking {
+	padding: 40px 25px 20px;
+	box-shadow: 0px 2px 4px -1px rgba(10,13,27,0.14);
+	background-color: white;
+	border-radius: 5px;
+}
+
+.detail_booking.unselect{
+	display: none;
+}
+
+.detail_booking.select{
+	display: block;
+}
+
+.detail_booking.hidden {
+	padding: 0;
+	box-shadow: unset;
+	background-color: unset;
+}
+
+.detail_booking.hidden .livechat {
+	padding: 20px 20px 0 20px;
+	box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	background-color: white;
+}
+
+.detail_booking.hidden h4{
+	padding: 20px;
+}
+
+.livechat_body {
+	height: 350px;
+}
+.livechat_body p {
+	margin: auto;
+}
+.livechat_body .row{
+	height: 100%;
+}
+
+.livechat_body .send_section{
+	height: 15%;
+	border-top: 1px solid #ccc;
+}
+
+.livechat_body .chat_section{
+	height: 85%;
+}
+
+.livechat_body .send_section input{
+	height: 100%;
+	border: none;
+	width: 90%;
+	margin-right: 1%;
+	font-size: 0.9rem;
+}
+.livechat_body .send_section input::placeholder{
+	color: #A2ACB8;
+	font-size: 14px;
+}
+
+.livechat_body .send_section .MuiSvgIcon-root{
+	width: 9%;
+	color: #2499f3;
+}
+
+.livechat_body .chat_section .chat_content p{
+	background-color: #F5F7FC;
+	color: #212A32;
+	padding: 15px;
+}
+
+.livechat_body .chat_section .chat_content span{
+	margin-top: 10px;
+	float: right;
+	font-size: 14px;
+}
+
+.booking_price {
+	display: flex;
+	padding-top: 20px;
+	border-top: 1px solid #efebeb;
+	border-bottom: 1px solid #efebeb;
+}
+
+.similars_section h3 {
+	line-height: 45px;
+	font-size: 28px;
+	color: #212A32;
+	margin-top: 70px;
+	margin-bottom: 30px;
+	width: 100%;
+}
+
+.similars_section .col-md-9,
+.faq_container .col-md-9{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.faq_container{
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.detailpage .faq_container .expantion-content{
+	margin-top: 30px;
+	box-shadow: 0px 2px 4px -1px rgba(10,13,27,0.14);
+	border-radius: 5px;
+}
+
+.detailpage .faq_container .expantion_body{
+	border-top: none;
+	border-bottom: none;
+	padding: 0 35px;
+}
+
+.detailpage .faq_container .expantion_body:first-child .MuiButtonBase-root.MuiExpansionPanelSummary-root{
+	border-top: none;
+}
+
+.detailpage .faq_container .MuiButtonBase-root.MuiExpansionPanelSummary-root{
+	border-top: 1px solid rgb(0,0,0,.125);
+}
+
+.detailpage .faq_container .MuiButtonBase-root.MuiExpansionPanelSummary-root:first-child{
+}
+
+.detailpage .faq_container .MuiExpansionPanelSummary-content{
+	margin: 25px 0;
+}
+
+.detailpage .faq_container .MuiExpansionPanelSummary-content .ex_title{
+	font-family: "OpenSans-SemiBold";
+	font-size: 16px;
+	color: #212a32;
+}
+
+.detailpage .faq_container .ex_content{
+	font-family: "OpenSans";
+}
+
+.detailpage .similars_section .book_button{
+	color: #212A32;
+	font-size: 14px;
+	text-decoration: none;
+	border: 1px solid #2499f3;
+	border-radius: 5px;
+	padding: 0 35px;
+	float: right;
+	line-height: 36px;
+}
+
+.detailpage .similars_section .book_button:hover{
+	color: white;
+	background: #2499f3;
+}
+
+.detailpage .loading_spinner{
+	position: fixed;
+	top: 0; left: 0; right: 0; bottom: 0;
+	width: 100%;
+	height: 100%;
+	margin-top: 0;
+	background: rgba(0,0,0,0.5);
+	padding-top: calc( 50vh - 40px );
+}
+/* Image Slider CSS */
+.ReactModalPortal .ril__outer{
+	background: rgba(0, 0, 0, 0.65);
+}
+.ReactModalPortal .ril__image,
+.ReactModalPortal .ril__imagePrev,
+.ReactModalPortal .ril__imageNext{
+	top: 50px;
+	bottom:initial;
+}
+.ReactModalPortal .ril__toolbar{
+	top	: 50px;
+	width: 70%;
+	margin: 0 auto;
+}
+.ReactModalPortal .ril__navButtons{
+	top: calc( 30% + 25px );
+	bottom: initial;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 10px;
+	width: 20px;
+	height: 20px;
+	padding: 20px;
+	margin: 0 30px;
+	background-size: 30% 50%;
+}
+.ReactModalPortal .ril__inner{
+	width: 70%;
+	height: 60%;
+	margin: 0 auto;
+}
+.ReactModalPortal .ril__inner img{
+	max-width: 100%;
+	height: 100%;
+	transform: scale3d(1,1,1) !important;
+}
+.ReactModalPortal .ril__navButtonPrev{
+	left: 15%;
+}
+.ReactModalPortal .ril__navButtonNext{
+	right: 15%;
+}
+
+
+@media (max-width: 768px) {
+}
+

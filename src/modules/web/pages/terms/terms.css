@@ -1,0 +1,25 @@
+.page_container.terms .page_banner{
+	background-image: url('/imgs/article_bg.png');
+}
+.page_container.terms .white_bg{
+	margin-top: 60px;
+	margin-bottom: 100px;
+}
+.page_container.terms .col-md-3 h3{
+	text-align: center;
+	font-size: 14px;
+	margin-top: 5px;
+}
+.page_container.terms .title{
+	font-size: 22px;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+.page_container.terms .title:first-child{
+	margin-top:0px;
+}
+.page_container.terms p{
+	font-size: 16px;
+	line-height: 26px;
+	margin-bottom: 20px;
+}
